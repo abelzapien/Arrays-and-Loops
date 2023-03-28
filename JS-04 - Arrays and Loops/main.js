@@ -22,13 +22,14 @@ for(num=[0];num < 5; num++){
     console.log(a += " *")
 }*/
 
-let a = "";
-for(num=[0];num < 5; num++){
-    linea = "";
-    for(num=[0];num < 5; num++){
-    console.log(a += " *");
+let a;
+let max=6;
+for(num=0;num <= max; num++){
+    a = "";
+    for(numa=0;numa < num; numa++){
+    a += " *";
     }
-    console.log(linea);
+    console.log(a);
 }
 
 console.log("----------------Ejercicio #3---------------------")
