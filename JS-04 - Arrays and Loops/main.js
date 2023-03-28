@@ -17,9 +17,18 @@ nombresFila.push("Elena");
 console.log(nombresFila);
 
 console.log("----------------Ejercicio #2---------------------")
-let a = "";
+/*let a = "";
 for(num=[0];num < 5; num++){
     console.log(a += " *")
+}*/
+
+let a = "";
+for(num=[0];num < 5; num++){
+    linea = "";
+    for(num=[0];num < 5; num++){
+    console.log(a += " *");
+    }
+    console.log(linea);
 }
 
 console.log("----------------Ejercicio #3---------------------")
